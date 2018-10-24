@@ -1,0 +1,13 @@
+<div class="container" >
+  <div class="card" style="width: 18rem;">
+      <!--<img class="card-img-top" src="{{randomImage}}" alt="Card image cap" >-->
+    <div class="card-body">
+      <h5 class="card-title">Author: {{author}}</h5>
+      <p class="card-text">Date: {{date | date:'short'}}</p>
+      <div class="card-text" [innerHtml]="desc"></div>
+      <a href="#" class="btn btn-primary" (click)="refreshImage()">
+        <i class="fas fa-sync-alt"></i>
+        Refresh</a>
+    </div>
+    </div>
+</div>
