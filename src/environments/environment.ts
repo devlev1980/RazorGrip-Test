@@ -4,5 +4,7 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  flickrApiKey: '0d0a42f302333118182a1fc53254bb24',
+  flickrApiUrl: 'https://api.flickr.com/services/feeds/photos_public.gne'
 };

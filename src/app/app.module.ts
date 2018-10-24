@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { ImagesListComponent } from './images-list/images-list.component';
-import {HttpClientJsonpModule, HttpClientModule} from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
 import {ApiService} from './services/api.service';
 
 

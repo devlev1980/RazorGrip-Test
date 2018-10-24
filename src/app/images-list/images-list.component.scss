@@ -1,13 +1,11 @@
-html{
-
-}
 .card{
+  width: 300px;
+  height: auto;
   margin: 50% auto;
-  //background-color: #396a7b !important;
-  //color: #fff !important;
   -webkit-box-shadow: 3px 2px 23px 0px rgba(133,129,133,1);
   -moz-box-shadow: 3px 2px 23px 0px rgba(133,129,133,1);
   box-shadow: 3px 2px 23px 0px rgba(133,129,133,1);
+
   a{
     background-color: #92374D!important;
     border: none !important;
